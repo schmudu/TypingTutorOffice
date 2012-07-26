@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDFEC4B415B1B5DE0097F1D1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFEC4B315B1B5DE0097F1D1 /* Cocoa.framework */; };
+		CDFEC4BE15B1B5DE0097F1D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFEC4BC15B1B5DE0097F1D1 /* InfoPlist.strings */; };
+		CDFEC4C015B1B5DE0097F1D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFEC4BF15B1B5DE0097F1D1 /* main.m */; };
+		CDFEC4C415B1B5DE0097F1D1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDFEC4C215B1B5DE0097F1D1 /* Credits.rtf */; };
+		CDFEC4C715B1B5DE0097F1D1 /* TypeTutorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFEC4C615B1B5DE0097F1D1 /* TypeTutorAppDelegate.m */; };
+		CDFEC4CA15B1B5DF0097F1D1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFEC4C815B1B5DF0097F1D1 /* MainMenu.xib */; };
+		CDFEC4D215B1B6030097F1D1 /* BigLetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFEC4D115B1B6030097F1D1 /* BigLetterView.m */; };
+		CDFEC4D915B305540097F1D1 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFEC4D815B305540097F1D1 /* NSString+FirstLetter.m */; };
+		CDFEC4DC15B33AC30097F1D1 /* TutorController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFEC4DB15B33AC30097F1D1 /* TutorController.m */; };
+		CDFEC4E715B4C1D30097F1D1 /* ColorFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFEC4E615B4C1D30097F1D1 /* ColorFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDFEC4AF15B1B5DE0097F1D1 /* TypingTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFEC4B315B1B5DE0097F1D1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CDFEC4B615B1B5DE0097F1D1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CDFEC4B715B1B5DE0097F1D1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CDFEC4B815B1B5DE0097F1D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDFEC4BB15B1B5DE0097F1D1 /* TypingTutor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypingTutor-Info.plist"; sourceTree = "<group>"; };
+		CDFEC4BD15B1B5DE0097F1D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDFEC4BF15B1B5DE0097F1D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDFEC4C115B1B5DE0097F1D1 /* TypingTutor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TypingTutor-Prefix.pch"; sourceTree = "<group>"; };
+		CDFEC4C315B1B5DE0097F1D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CDFEC4C515B1B5DE0097F1D1 /* TypeTutorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeTutorAppDelegate.h; sourceTree = "<group>"; };
+		CDFEC4C615B1B5DE0097F1D1 /* TypeTutorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeTutorAppDelegate.m; sourceTree = "<group>"; };
+		CDFEC4C915B1B5DF0097F1D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CDFEC4D015B1B6030097F1D1 /* BigLetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BigLetterView.h; path = ../BigLetterView.h; sourceTree = "<group>"; };
+		CDFEC4D115B1B6030097F1D1 /* BigLetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BigLetterView.m; path = ../BigLetterView.m; sourceTree = "<group>"; };
+		CDFEC4D715B305540097F1D1 /* NSString+FirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FirstLetter.h"; sourceTree = "<group>"; };
+		CDFEC4D815B305540097F1D1 /* NSString+FirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstLetter.m"; sourceTree = "<group>"; };
+		CDFEC4DA15B33AC30097F1D1 /* TutorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorController.h; sourceTree = "<group>"; };
+		CDFEC4DB15B33AC30097F1D1 /* TutorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorController.m; sourceTree = "<group>"; };
+		CDFEC4E515B4C1D30097F1D1 /* ColorFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorFormatter.h; sourceTree = "<group>"; };
+		CDFEC4E615B4C1D30097F1D1 /* ColorFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFEC4AC15B1B5DE0097F1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFEC4B415B1B5DE0097F1D1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDFEC4A415B1B5DE0097F1D1 = {
+			isa = PBXGroup;
+			children = (
+				CDFEC4B915B1B5DE0097F1D1 /* TypingTutor */,
+				CDFEC4B215B1B5DE0097F1D1 /* Frameworks */,
+				CDFEC4B015B1B5DE0097F1D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFEC4B015B1B5DE0097F1D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFEC4AF15B1B5DE0097F1D1 /* TypingTutor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFEC4B215B1B5DE0097F1D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFEC4B315B1B5DE0097F1D1 /* Cocoa.framework */,
+				CDFEC4B515B1B5DE0097F1D1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDFEC4B515B1B5DE0097F1D1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFEC4B615B1B5DE0097F1D1 /* AppKit.framework */,
+				CDFEC4B715B1B5DE0097F1D1 /* CoreData.framework */,
+				CDFEC4B815B1B5DE0097F1D1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CDFEC4B915B1B5DE0097F1D1 /* TypingTutor */ = {
+			isa = PBXGroup;
+			children = (
+				CDFEC4D015B1B6030097F1D1 /* BigLetterView.h */,
+				CDFEC4D115B1B6030097F1D1 /* BigLetterView.m */,
+				CDFEC4D715B305540097F1D1 /* NSString+FirstLetter.h */,
+				CDFEC4D815B305540097F1D1 /* NSString+FirstLetter.m */,
+				CDFEC4C515B1B5DE0097F1D1 /* TypeTutorAppDelegate.h */,
+				CDFEC4C615B1B5DE0097F1D1 /* TypeTutorAppDelegate.m */,
+				CDFEC4C815B1B5DF0097F1D1 /* MainMenu.xib */,
+				CDFEC4DA15B33AC30097F1D1 /* TutorController.h */,
+				CDFEC4DB15B33AC30097F1D1 /* TutorController.m */,
+				CDFEC4E515B4C1D30097F1D1 /* ColorFormatter.h */,
+				CDFEC4E615B4C1D30097F1D1 /* ColorFormatter.m */,
+				CDFEC4BA15B1B5DE0097F1D1 /* Supporting Files */,
+			);
+			path = TypingTutor;
+			sourceTree = "<group>";
+		};
+		CDFEC4BA15B1B5DE0097F1D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFEC4BB15B1B5DE0097F1D1 /* TypingTutor-Info.plist */,
+				CDFEC4BC15B1B5DE0097F1D1 /* InfoPlist.strings */,
+				CDFEC4BF15B1B5DE0097F1D1 /* main.m */,
+				CDFEC4C115B1B5DE0097F1D1 /* TypingTutor-Prefix.pch */,
+				CDFEC4C215B1B5DE0097F1D1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFEC4AE15B1B5DE0097F1D1 /* TypingTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFEC4CD15B1B5DF0097F1D1 /* Build configuration list for PBXNativeTarget "TypingTutor" */;
+			buildPhases = (
+				CDFEC4AB15B1B5DE0097F1D1 /* Sources */,
+				CDFEC4AC15B1B5DE0097F1D1 /* Frameworks */,
+				CDFEC4AD15B1B5DE0097F1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypingTutor;
+			productName = TypingTutor;
+			productReference = CDFEC4AF15B1B5DE0097F1D1 /* TypingTutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFEC4A615B1B5DE0097F1D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TypeTutor;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Patrick Lee";
+			};
+			buildConfigurationList = CDFEC4A915B1B5DE0097F1D1 /* Build configuration list for PBXProject "TypingTutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDFEC4A415B1B5DE0097F1D1;
+			productRefGroup = CDFEC4B015B1B5DE0097F1D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFEC4AE15B1B5DE0097F1D1 /* TypingTutor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFEC4AD15B1B5DE0097F1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFEC4BE15B1B5DE0097F1D1 /* InfoPlist.strings in Resources */,
+				CDFEC4C415B1B5DE0097F1D1 /* Credits.rtf in Resources */,
+				CDFEC4CA15B1B5DF0097F1D1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFEC4AB15B1B5DE0097F1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFEC4C015B1B5DE0097F1D1 /* main.m in Sources */,
+				CDFEC4C715B1B5DE0097F1D1 /* TypeTutorAppDelegate.m in Sources */,
+				CDFEC4D215B1B6030097F1D1 /* BigLetterView.m in Sources */,
+				CDFEC4D915B305540097F1D1 /* NSString+FirstLetter.m in Sources */,
+				CDFEC4DC15B33AC30097F1D1 /* TutorController.m in Sources */,
+				CDFEC4E715B4C1D30097F1D1 /* ColorFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDFEC4BC15B1B5DE0097F1D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFEC4BD15B1B5DE0097F1D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDFEC4C215B1B5DE0097F1D1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFEC4C315B1B5DE0097F1D1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CDFEC4C815B1B5DF0097F1D1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFEC4C915B1B5DF0097F1D1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDFEC4CB15B1B5DF0097F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDFEC4CC15B1B5DF0097F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDFEC4CE15B1B5DF0097F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutor/TypingTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDFEC4CF15B1B5DF0097F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutor/TypingTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFEC4A915B1B5DE0097F1D1 /* Build configuration list for PBXProject "TypingTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFEC4CB15B1B5DF0097F1D1 /* Debug */,
+				CDFEC4CC15B1B5DF0097F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFEC4CD15B1B5DF0097F1D1 /* Build configuration list for PBXNativeTarget "TypingTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFEC4CE15B1B5DF0097F1D1 /* Debug */,
+				CDFEC4CF15B1B5DF0097F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDFEC4A615B1B5DE0097F1D1 /* Project object */;
+}
